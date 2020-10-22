@@ -38,7 +38,7 @@ ul {
   list-style: none;
 }
 /* Контейнер */
-.conteiner {
+.container {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
@@ -96,7 +96,7 @@ ul {
   color: var(--accent-text-color);
 }
 
-.flex-conteiner {
+.flex-container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -208,14 +208,14 @@ ul {
   width: calc((100% - 90px) / 4);
 } */
 
-.conteiner-team {
+.container-team {
   padding: 94px 0;
 
   background-color: var(--secondary-bgc);
 
   /* outline: 2px solid tomato; */
 }
-.conteiner-detail {
+.container-detail {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -383,7 +383,7 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.conteiner-name-project {
+.container-name-project {
   width: 322px;
   margin: 0 24px;
 
