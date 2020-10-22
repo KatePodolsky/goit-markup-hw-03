@@ -164,6 +164,15 @@ ul {
 }
 
 /* Преимущества */
+.flex-advantages {
+  display: flex;
+}
+.flex-advantages .list-item {
+  width: calc((100% - 90px) / 4);
+}
+.flex-advantages .list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .advantages-list {
   margin-top: 0;
   margin-bottom: 10px;
@@ -179,12 +188,32 @@ ul {
   color: var(--secondary-text-color);
 }
 /* Услуги и Команда */
+.flex-work > img {
+  display: block;
+}
+.work-image {
+  display: block;
+}
+.flex-work {
+  display: flex;
+  justify-content: space-between;
+
+  /* outline: 2px solid tomato; */
+}
+.flex-team {
+  display: flex;
+  justify-content: space-between;
+}
+/* .flex-team > li {
+  width: calc((100% - 90px) / 4);
+} */
 
 .conteiner-team {
   padding: 94px 0;
-  outline: 2px solid tomato;
 
   background-color: var(--secondary-bgc);
+
+  /* outline: 2px solid tomato; */
 }
 .conteiner-detail {
   margin-left: auto;
@@ -192,8 +221,9 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 30px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .work-title,
@@ -213,12 +243,16 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-position {
   margin: 0;
 
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
 }
@@ -307,11 +341,14 @@ ul {
 
 .portfolio-filter:hover,
 .portfolio-filter:focus {
+  border: none;
+
   background-color: var(--accent-text-color);
   color: var(--another-text-color);
 }
 .portfolio-filter:active {
   color: var(--primary-text-color);
+  border: none;
 }
 .project img {
   margin-bottom: 20px;
