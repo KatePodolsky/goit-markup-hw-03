@@ -166,6 +166,7 @@ ul {
 /* Преимущества */
 .flex-advantages {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-advantages .list-item {
   width: calc((100% - 90px) / 4);
@@ -196,12 +197,14 @@ ul {
 }
 .flex-work {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   /* outline: 2px solid tomato; */
 }
 .flex-team {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 /* .flex-team > li {
