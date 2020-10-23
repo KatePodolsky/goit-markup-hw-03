@@ -52,6 +52,7 @@ ul {
 /* Навигация и контакты */
 
 .header {
+  border-bottom: 1px solid #ececec;
   background-color: var(--primery-bgc);
 }
 
