@@ -359,9 +359,11 @@ ul {
 }
 .project li {
   padding-bottom: 20px;
+  border: 1px solid #ececec;
 
   /* outline: 2px solid tomato; */
 }
+
 .project a {
   display: block;
   margin: 0;
